@@ -2,10 +2,9 @@
     font-family: Roboto, serif;
 }
 
-img {
-    width: 300px;
-}
-
+/*  */
+/* Hero = top, dark-blue section */
+/*  */
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -13,25 +12,29 @@ img {
     padding: 10px 150px; 
 }
 
-.hero-logo, .hero-main {
-    color: #F9FAF8;
-}
-
+/* hero-logo is the top left text */
 .hero-logo {
     font-size: 24px;
 }
 
+/* "This website is awesome" text */
 .hero-main {
     font-size: 48px;
     font-weight: 900;
 }
 
+.hero-logo, .hero-main {
+    color: #F9FAF8;
+}
+
+/* hero-secondary is text just below hero-main */
 .hero-secondary, .header-link, .hero button {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-button {
+/* Top sign up button */
+.hero button {
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
@@ -39,6 +42,7 @@ button {
     width: max-content;
 }
 
+/* Three links on top menu header */
 .header-link {
     list-style: none;
     display: flex;
@@ -47,25 +51,29 @@ button {
     gap: 16px;
 }
 
+/* Top menu bar of webpage. Contains header logo and links */
 .hero-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.hero-content, .hero-body {
-    display: flex;
-}
-
+/* Bottom content of the top section (i.e., The text, button, and image). */
 .hero-content {
+    display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     gap: 1rem;
 }
 
+/* Just the text and button */
 .hero-body {
+    display: flex;
     flex-direction: column;
-    width: 400px;
     gap: 10px;
     flex-grow: 1;
+}
+
+.hero img {
+    width: 300px;
 }
