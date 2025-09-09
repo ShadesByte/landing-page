@@ -36,7 +36,7 @@ button {
     border-radius: 8px;
     border: none;
     padding: 5px 12px;
-    width: 100px;
+    width: max-content;
 }
 
 .header-link {
@@ -60,10 +60,12 @@ button {
 .hero-content {
     justify-content: space-between;
     margin-bottom: 20px;
+    gap: 1rem;
 }
 
 .hero-body {
     flex-direction: column;
     width: 400px;
     gap: 10px;
+    flex-grow: 1;
 }
