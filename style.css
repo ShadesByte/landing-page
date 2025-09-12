@@ -82,3 +82,41 @@
 /*  */
 /* Top middle section with images */
 /*  */
+
+.top-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    padding: 15px;
+}
+
+.img-group img {
+    width: 130px;
+    height: 130px;
+}
+
+.img-group div {
+    text-align: center;
+}
