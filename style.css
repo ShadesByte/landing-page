@@ -144,3 +144,27 @@
 /*  */
 /* Call to Action */
 /*  */
+
+.action-call, .action-call button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+.action-call button {
+    width: max-content;
+    border-color: white;
+    padding: 5px 12px;
+    width: max-content;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    margin: 50px;
+}
+
+.call-group div {
+    color: #e5E7EB;
+}
